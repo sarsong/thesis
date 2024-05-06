@@ -4,7 +4,7 @@ _Sarah Song_
 
 TO DO: set up binder link 
 
-Project description
+This project aims to develop and evaluate a custom tree canopy model for San Francisco using 2018 LiDAR data and NAIP aerial photography and applying three machine-learning algorithms: Random Forest (RF), XGBoost, and U-net. The U-net model demonstrated the highest accuracy among the tested models, matching the F1 Score for the "Tree" class across all models. This performance suggests that high-accuracy tree canopy prediction is feasible even with limited training data, offering a cost-effective alternative to outsourcing and supporting local urban forestry management efforts. Furthermore, this project explores demographic and environmental factors correlating with tree canopy coverage, emphasizing the relationships between tree canopy, PM2.5 levels, and demographic composition, thereby providing insights into environmental justice and urban planning.
 
 ## Directory Structure
 
@@ -19,22 +19,9 @@ This repo contains a few subfolders which contain the elements of this project.
 
 Your repo should contain _all_ of the folders listed above, and they should contain the appropriate files (e.g. the notebook with your analysis goes into the `notebooks` folder).
 
-### Pre-Analysis Plan
-
-This should be completed after you have your data set but before you begin your analysis. **Make sure to timestamp this document!** This is the whole point of a Pre-Analysis Plan. It should contain the following sections:
-
-| Section | Description |
-|-----|-----|
-| Abstract  | an abstract for your project, excl. findings  |
-| Data  | description of your data set (something akin to a synthesis of the Step 1 assignment)  |
-| Strategy  | an outline of the steps you will take to analyze your data (mostly a description of the code)  |
-| Analysis  | any heuristics or mathematical models that you use, and the reasons for their use  |
-| Deliverables  | a description of the deliverable files in the repo, incl. where your presentation is  |
-| Sources   | list of sources for your data _and any other research_ that you did  |
-
 ### MyBinder
 
-You should note that this repository has a MyBinder link (at the top of this README) which links to MyBinder to allow others to run our code. _Your repository should also include such a link._ The steps to create this link are given below:
+You should note that this repository has a MyBinder link (at the top of this README), which links to MyBinder to allow others to run our code. _Your repository should also include such a link._ The steps to create this link are given below:
 
 1. Copy the `requirements.txt` file from this repo and add it to yours. This should cover all dependencies, but if you use any that are not listed in that file, _make sure to add them_.
 2. Go to the [MyBinder website](https://mybinder.org/) and paste the URL to your repo in the `GitHub repository name or URL` field (pictured below).
